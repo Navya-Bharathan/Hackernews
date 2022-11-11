@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+
+
+body{
+  margin:0;
+  background-color: rgb(246, 242, 230);
+}
+.article-card-container{
+  background-color: rgb(199, 223, 216);
+  margin: 5px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
