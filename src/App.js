@@ -1,14 +1,14 @@
 
 import './App.css';
-import NavBar from './components/Navbar';
-import Search from './components/Searchbar';
+//import NavBar from './components/Navbar';
+import SearchResult from './components/SearchResult';
 
 
 function App() {
   return (
   <div>
-        <NavBar />
-        <Search />
+        {/*<NavBar />*/}
+        <SearchResult />
       
   </div>
   );
