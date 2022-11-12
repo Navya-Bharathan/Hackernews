@@ -41,6 +41,7 @@ const SearchResult=()=>{
                 }
             );//fetch data according to the current page and search query 
                 console.log(data)
+                console.log(search);
                 const {hits,nbPages}=data; // destructure the data and get the no of hits,pages
                 setArticles(hits);     //set data in each page
                 setPages(nbPages);   //set the total no of pages
@@ -58,7 +59,7 @@ const SearchResult=()=>{
     
     
 return(
-    <div>
+    <div className="search-page">
         
           <h1>HACKER NEWS</h1>
           <form className="search-form" onSubmit={handleSubmit}>
